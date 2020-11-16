@@ -20,8 +20,29 @@ Your options are:
 
 // console.log(menu)gi
 const toDoApp = function(userInput) {
+  console.clear();
   if (userInput === `6`){
     interface.close()
+  } else if(userInput === `5`){
+    console.log('That is not available yet...')
+    console.log('Please enter "6" to quit')
+    interface.question(menu, toDoApp)
+  } else if(userInput === `4`){
+    console.log('That is not available yet...')
+    console.log('Please enter "6" to quit')
+    interface.question(menu, toDoApp)
+  } else if(userInput === `3`){
+    console.log('That is not available yet...')
+    console.log('Please enter "6" to quit')
+    interface.question(menu, toDoApp)
+  } else if(userInput === `2`){
+    console.log('That is not available yet...')
+    console.log('Please enter "6" to quit')
+    interface.question(menu, toDoApp)
+  } else if(userInput === `1`){
+    console.log('That is not available yet...')
+    console.log('Please enter "6" to quit')
+    interface.question(menu, toDoApp)
   }else {
     console.log('Please type "6" to quit')
     interface.question(menu, toDoApp)
