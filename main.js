@@ -17,3 +17,15 @@ Your options are:
 6. Quit.
 
 `
+
+// console.log(menu)gi
+const toDoApp = function(userInput) {
+  if (userInput === `6`){
+    interface.close()
+  }else {
+    console.log('Please type "6" to quit')
+    interface.question(menu, toDoApp)
+  }
+}
+
+interface.question(menu, toDoApp)
